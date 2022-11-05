@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 32px;
+	background-color: aquamarine;
+	height: 80px;
+}
+
+nav .logo h1 {
+	font-size: 2rem;
+	font-weight: 800;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+nav .cart span:nth-child(1) {
+	font-size: 1.4em;
+	color: #ffff;
+}
+nav .cart span:nth-child(2) {
+	font-size: 1em;
+	color: #ffff;
+	top: -15px;
+	position: relative;
+	padding: 0 3px;
+	background-color: tomato;
+	border-radius: 3px;
+}

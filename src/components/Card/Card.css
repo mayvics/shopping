@@ -1,0 +1,12 @@
+.itemCard {
+	margin: 20px;
+	padding: 15px 20px;
+	border-radius: 10px;
+	transition: 0.2s;
+}
+
+.itemCard:hover {
+	transform: scale(1.1);
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.1);
+	/* border: 2px solid rgba(0, 0, 0, 0.1); */
+}
